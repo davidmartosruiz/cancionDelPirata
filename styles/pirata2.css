@@ -1,0 +1,38 @@
+@font-face {
+    font-family: handwritten;
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: title;
+    src: url(../fonts/fofbb_reg.ttf);
+}
+
+body{margin: 0;
+    padding: 0;
+    /*box-shadow: 5vw 5vw 20px #d0b078;
+    box-shadow: 5vw -5vw 20px #d0b078;
+    box-shadow: -5vw 5vw 20px #d0b078;
+    box-shadow: -5vw -5vw 20px #d0b078;*/
+    background-color: #040904;}
+
+#container{background-image: url(../images/background.jpg) ;
+            /* cover estira la imagen de fondo */
+            background-size: cover;
+            /* el punto de enfoque del cover */
+            background-position: 66%;
+            width: 90%;
+            margin: auto;
+            padding: 20px;}
+
+
+#poema{background-color: rgba(255, 255, 255, 0.39);
+        width: 250px;
+        border-radius: 15px 15px 15px 15px;}
+
+#poema h2{font-family: title;
+        text-align: center;}
+
+#poema p{font-family: handwritten;
+        font-size: 1.4em;
+        padding: 10px;}

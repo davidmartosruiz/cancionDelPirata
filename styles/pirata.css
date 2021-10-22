@@ -1,0 +1,26 @@
+@font-face {
+    font-family: hand-written;
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: title;
+    src: url(../fonts/fofbb_reg.ttf);
+}
+
+body{margin: 0%;
+    padding: 0%;
+    background-image: url(../images/pattern.jpg);
+    background-size: 50%;
+    font-family: hand-written;
+    font-size: 1.4em;}
+    /* RECORDAR EXPLICAR FILTROS DE IMÁGENES*/
+#poema h2{font-family: title;}
+#container{background-color: #f5e0b3;
+    opacity: 90%;
+    width: 80%;
+    margin: 5vh auto;
+    padding: 20px;
+    border-radius: 10px;}
+#poema{width: 200px;
+    margin: auto;}
